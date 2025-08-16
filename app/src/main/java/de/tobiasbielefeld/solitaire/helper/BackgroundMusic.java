@@ -102,6 +102,9 @@ public class BackgroundMusic extends AsyncTask<Context, Void, Void> {
             case "4":
                 soundID = R.raw.background_music_4;
                 break;
+            case "5":
+                soundID = R.raw.background_music_5;
+                break;
         }
 
         if (player != null) {
